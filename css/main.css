@@ -1,0 +1,96 @@
+:root{
+    --vermelho: #E50914;
+    --preto: #141414;
+}
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+body{
+    background: var(--preto);
+    color: #fff;
+}
+header{
+    min-width: 100%;
+    min-height: 3rem;
+
+}
+header .container{
+    display: flex;
+    padding: 0.5rem;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+header .container .titleCard{
+    color: var(--vermelho);
+    font-family: 'Arial Black';
+    font-size: 2em;
+}
+
+header .container a{
+    margin-left: 1.5rem;
+    font-size: 1.3em;
+    color: #636161;
+    text-decoration: none;
+
+}
+header .container a:hover{
+    color: #fff;
+}
+
+/**
+    main move
+*/
+
+.sugestion-main{
+    
+    background:linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../imgs/loki.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    min-width: 100%;
+    min-height: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 1em;
+
+}
+.sugestion-main .title-serie{
+    padding: 0.6rem;
+    font-size: 5em;
+}
+.sugestion-main .overview-serie{
+    padding: 0.5rem;
+    font-size: 1.3em;
+
+}
+
+.sugestion-main .conteiner{
+    max-width: 80%;
+    text-align: justify;
+}
+
+/* fddf*/
+
+
+.box-filme{
+    max-height: 100%;
+    max-width: 100%;
+    display: block;
+
+    cursor: pointer;
+}
+
+
+.move-carousel{
+    margin-top:1rem;
+}
+
+
