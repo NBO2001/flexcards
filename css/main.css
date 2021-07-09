@@ -11,6 +11,7 @@
 
 }
 body{
+    overflow-x: hidden;
     background: var(--preto);
     color: #fff;
 }
@@ -42,17 +43,22 @@ header .container a{
 header .container a:hover{
     color: #fff;
 }
+header .container .interface-moblie{
 
+    display: none;
+    cursor: pointer;
+
+}
 /**
     main move
 */
 
 .sugestion-main{
     
-    background:linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../imgs/loki.jpg');
-    background-size: cover;
+    background:linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../imgs/court-roses.jpg');
+    background-size: contain;
     background-repeat: no-repeat;
-    background-position:center;
+    background-position:right;
     min-width: 100%;
     min-height: 25rem;
     display: flex;
@@ -71,6 +77,29 @@ header .container a:hover{
     font-size: 1.3em;
 
 }
+.sugestion-main .conteiner .btn{
+
+    min-height: 3rem;
+    min-width: 8rem;
+    font-size: 1.5em;
+    background-color: #636161;
+    color: #fff;
+    margin: 0.5rem;
+    border-radius: 0.3rem;
+    animation: 5s ease all;
+
+}
+
+.sugestion-main .conteiner .btn:hover{
+
+  
+    background-color:#c93232;
+    min-height: 4rem;
+    min-width: 9rem;
+    font-size: 2em;
+    
+
+}
 
 .sugestion-main .conteiner{
     max-width: 80%;
@@ -80,16 +109,18 @@ header .container a:hover{
 /* fddf*/
 
 
-.box-filme{
-    max-height: 100%;
+.box-item{
+    min-height: 100%;
     max-width: 100%;
     display: block;
-
     cursor: pointer;
+    animation: 5s ease all;
+}
+.box-item:hover{
+    border: 0.5em solid rgb(165, 35, 35);
 }
 
-
-.move-carousel{
+.library-carousel{
     margin-top:1rem;
 }
 

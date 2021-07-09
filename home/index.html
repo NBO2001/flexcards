@@ -5,11 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/main.css">
-    <link rel="stylesheet" href="../css/response.css">
+   
     <!-- Owl -->
     <link rel="stylesheet" href="../css/owl/owl.carousel.min.css">
     <link rel="stylesheet" href="../css/owl/owl.theme.default.min.css">
+
+     <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/response.css">
     
 
 
@@ -19,15 +21,19 @@
 <body>
     
     <header>
-
+        
        <div class="container">
-            
+       
             <h2 class="titleCard">FlexCard</h2>
 
-            <nav>
-                <a href="#">Recents</a>
-                <a href="#">Matters</a>
-                <a href="#">News cards</a>                         
+            <div class="interface-moblie">
+                <i class="fas fa-grip-lines"></i>
+            </div>
+
+            <nav class='list-nave'>
+                <a class='item-nav' href="#">Recents</a>
+                <a class='item-nav' href="#">Matters</a>
+                <a class='item-nav' href="#">News cards</a>                         
             </nav>
 
        </div>
@@ -40,37 +46,60 @@
 
             <div class="conteiner">
                 
-                <h3 class="title-serie">LOKI</h3>
+                <h3 class="title-serie">A Court of Thorns and Roses</h3>
                 
                 <p class='overview-serie'>
-                    After stealing the Tesseract during the events of “Avengers: Endgame,” 
-                    an alternate version of Loki is brought to the mysterious Time Variance 
-                    Authority....
+                    Feyre's survival rests upon her ability to hunt and 
+                    kill – the forest where she lives is a cold, bleak place in the long winter months.
+                     So when she spots a deer in the forest being pursued by a wolf, she cannot resist fighting it 
+                     for the flesh. But to do so, 
+                    she must kill the predator and killing something so precious comes at a price ...
                 </p>                
 
+                <div class="conteiner">
+                    <button role="button" class="btn">
+                        <i class="fas fa-play"></i>
+                        Read
+                    </button>
+                    <button role="button" class="btn">
+                        <i class="fab fa-leanpub"></i>
+                        Learn
+                    </button>
+                </div>
             </div>
 
         </div>
 
     </main>
 
-    <div class="move-carousel">
+    <div class="library-carousel">
 
         <div class="owl-carousel owl-theme">
 
             <div class="item">
-                <img class="box-filme" src="../imgs/img1.jpg" alt="luc">
+                <img class="box-item" src="../imgs/the-cruel-prince.jpg" alt="the-cruel-prince">
             </div>
             <div class="item">
-                <img class="box-filme" src="../imgs/img2.jpg" alt="luc">
+                <img class="box-item" src="../imgs/court-of-mist-fury.jpg" alt="court-of-mist-fury">
+            </div>
+            <div class="item">
+                <img class="box-item" src="../imgs/court-of-silver-flames.jpg" alt="court-of-mist-fury">
+            </div>
+            <div class="item">
+                <img class="box-item" src="../imgs/it-ends-with-us.jpg" alt="it-ends-with-us.jpg">
+            </div>
+            <div class="item">
+                <img class="box-item" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1453299050l/25912358._SY475_.jpg" alt="a-thousand-boy-kiss">
             </div>
 
         </div>
 
     </div>
 
+    <script src="https://kit.fontawesome.com/c4bab4f057.js" crossorigin="anonymous"></script>
     <script src="../js/owl/jquery.min.js"></script>
     <script src="../js/owl/owl.carousel.min.js"></script>
     <script src="../js/index.js"></script>
+    <script src="../js/nav-bar.js"></script>
 </body>
 </html>
